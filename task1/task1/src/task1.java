@@ -47,11 +47,13 @@ public class task1 {
         return (a+b-1);
     }
     public static int sumOfCubes(int [] arr) {
-        int num1 = arr[0];
-        int num2 = arr[1];
-        int num3 = arr[2];
+        int s = 0;
 
-        return (num1*num1*num1 + num2*num2*num2 + num3*num3*num3);
+        for(int i: arr){
+            s += i*i*i;
+        }
+
+        return (s);
     }
 
     public static boolean abcmath (int num1, int num2, int num3) {
@@ -72,7 +74,7 @@ public class task1 {
         System.out.println(ctoa('A'));
         System.out.println(addUpTo(3));
         System.out.println(nextEdge(8, 10));
-        System.out.println(sumOfCubes(new int[]  {1, 5, 9}));
+        System.out.println(sumOfCubes(new int[]  {1, 5}));
         System.out.println(abcmath(42, 5, 10));
     }
 }
