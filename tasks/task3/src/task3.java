@@ -141,6 +141,7 @@ public class task3 {
         System.out.println(flipEndChars("z"));
         System.out.println(isValidHexCode("#CD5C5Z"));
         System.out.println(same(new int[] {9, 8, 7, 6},new int[] {4, 4, 3, 1}));
+        System.out.println(isKaprekar(3));
         System.out.println(longestZero("1110000001010001000100101000"));
         System.out.println(nextPrime(11));
         System.out.println(rightTriangle(70, 130, 110));
