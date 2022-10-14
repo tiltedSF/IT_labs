@@ -19,13 +19,13 @@ public class Lab1 {
     static public void main(String[] args){
         Scanner in = new Scanner(System.in);
 
-        Point3d point1 = new Point3d(in.nextInt(), in.nextInt(), in.nextInt());
-        Point3d point2 = new Point3d(in.nextInt(), in.nextInt(), in.nextInt());
-        Point3d point3 = new Point3d(in.nextInt(), in.nextInt(), in.nextInt());
+        Point3d point1 = new Point3d(in.nextFloat(), in.nextFloat(), in.nextFloat());
+        Point3d point2 = new Point3d(in.nextFloat(), in.nextFloat(), in.nextFloat());
+        Point3d point3 = new Point3d(in.nextFloat(), in.nextFloat(), in.nextFloat());
 
         in.close();
 
-        System.out.println(computeArea(point1, point2, point3));
+        System.out.printf("%.2f", computeArea(point1, point2, point3));
 
     }
 
